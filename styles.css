@@ -46,23 +46,30 @@ flex: 1 5rem;
     padding-bottom: 1rem;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 400px )  {
     body {
         flex-direction: column;
     }
-    main {
-        flex-direction: row;
-        flex: 1;
-        display: flex;
+    .main-without-nav {
+     display: flex;
+     flex: 1;
+    
     }
     #navbar {
         background-color: #0CA2B3;
+        flex: 0;
     }
     #article {
         background-color:#3BEBFF ;
+        flex-direction: column;
+        flex: 2;
+        display: flex;
     }
     #aside {
         background-color:#21EAFF ;
+        flex-direction: column;
+        display: flex;
+        flex: 1;
     }
     #header {
         background-color:#B34C00 ;
@@ -78,15 +85,22 @@ flex: 1 5rem;
     }
     main {
         flex-direction: row;
+        flex: 1;
+    }
+    .main-without-nav{
+        flex: 3;
     }
     #navbar {
         background-color:#56B39D  ;
+        flex: 1;
     }
     #article {
         background-color:#ADFFEC ;
+    
     }
     #aside {
         background-color:#93FFE5 ;
+        
     }
     #header {
         background-color: #B35F44;
