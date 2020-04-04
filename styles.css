@@ -21,10 +21,21 @@ main {
 }
 
 #article {
-background-color: #6791A3;
-padding-top: 4rem;
-padding-bottom: 4rem;
+background-color: rgb(177, 194, 201);
+padding-top: 1rem;
+padding-bottom: 1rem;
 flex: 3;
+
+}
+.card {
+
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    height: 10rem;
+    margin: 1rem;
+    background-color: whitesmoke;
 }
 #navbar {
 background-color: #2E4A57;
