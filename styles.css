@@ -28,9 +28,7 @@ flex: 3;
 }
 #navbar {
 background-color: #2E4A57;
-padding-top: 4rem;
-padding-bottom: 4rem;
-flex: 1 5rem;
+
 }
 #aside {
 background-color: #AFDCF0;
@@ -58,6 +56,10 @@ flex: 1 5rem;
     border-radius: 10px;
     margin: -8px 8px;  
 }
+.copyright {
+    text-align: center;
+    font-size: smaller;
+}
 
 @media (min-width: 400px )  {
     * {
@@ -74,6 +76,9 @@ flex: 1 5rem;
     #navbar {
         background-color: #0CA2B3;
         flex: 0;
+        padding-top: 4rem;
+padding-bottom: 4rem;
+flex: 1 5rem;
     }
     #article {
         background-color:#3BEBFF ;
@@ -109,6 +114,7 @@ flex: 1 5rem;
     #navbar {
         background-color:#56B39D  ;
         flex: 1;
+        
     }
     #article {
         background-color:#ADFFEC ;
