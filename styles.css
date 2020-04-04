@@ -1,7 +1,7 @@
 * {
     text-align: center;
-    color: white;
-    margin: 2px;
+    color: rgb(255, 255, 255);
+   
 }
 
 body {
@@ -16,9 +16,8 @@ main {
     flex: 1;
 }
 #header {
- background-color: #574025;
-padding-top: 3rem;
-padding-bottom: 3rem;
+ background-color: #ce8532;
+
 }
 
 #article {
@@ -41,12 +40,29 @@ flex: 1 5rem;
 }
 
 #footer {
-    background-color:#A38767;
+    background-color:rgb(134, 123, 111);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+.header-brand {
+    text-align: left;
+    margin-left: 5px;
+    
+  
+}
+
+.header-button {
+    float: right;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin: -8px 8px;  
+}
 
 @media (min-width: 400px )  {
+    * {
+        margin: 2px;   
+    }
     body {
         flex-direction: column;
     }
