@@ -1,14 +1,12 @@
 * {
     text-align: center;
     color: rgb(255, 255, 255);
-   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 body {
     height: 98vh;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 main {
     flex-direction: column;
@@ -16,18 +14,15 @@ main {
     flex: 1;
 }
 #header {
- background-color: #ce8532;
- background: linear-gradient(40deg, #ce8532, #d4aa7a);
-
+    background-color: #ce8532;
+    background: linear-gradient(40deg, #ce8532, #d4aa7a);
 }
-
 #article {
-background-color: rgb(177, 194, 201);
-background: linear-gradient(40deg, rgb(177, 194,201), rgb(226, 226, 226));
-padding-top: 1rem;
-padding-bottom: 1rem;
-flex: 3;
-
+    background-color: rgb(177, 194, 201);
+    background: linear-gradient(40deg, rgb(177, 194,201), rgb(226, 226, 226));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex: 3;
 }
 .card {
     box-shadow: 0px 4px 4px -3px black;
@@ -40,16 +35,14 @@ flex: 3;
     background-color: whitesmoke;
 }
 #navbar {
-background-color: #2E4A57;
-
+    background-color: #2E4A57;
 }
 #aside {
-background-color: #AFDCF0;
-padding-top: 4rem;
-padding-bottom: 4rem;
-flex: 1 5rem;
+    background-color: #AFDCF0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    flex: 1 5rem;
 }
-
 #footer {
     background-color:rgb(134, 123, 111);
     padding-top: 1rem;
@@ -57,11 +50,8 @@ flex: 1 5rem;
 }
 .header-brand {
     text-align: left;
-    margin-left: 5px;
-    
-  
+    margin-left: 5px;   
 }
-
 .header-button {
     float: right;
     width: 3rem;
@@ -76,23 +66,20 @@ flex: 1 5rem;
 }
 
 @media (min-width: 400px )  {
-    * {
-        margin: 2px;   
-    }
+  
     body {
         flex-direction: column;
     }
     .main-without-nav {
-     display: flex;
-     flex: 1;
-    
+        display: flex;
+        flex: 1;
     }
     #navbar {
         background-color: #0CA2B3;
         flex: 0;
         padding-top: 4rem;
-padding-bottom: 4rem;
-flex: 1 5rem;
+        padding-bottom: 4rem;
+        flex: 1 5rem;
     }
     #article {
         background-color:#3BEBFF ;
@@ -114,6 +101,7 @@ flex: 1 5rem;
     }
     #footer {
         background-color:#FF7F21 ;
+        background: linear-gradient(40deg,#FF7F21,rgb(250, 162, 98)) ;
     }
 }
 
@@ -129,23 +117,24 @@ flex: 1 5rem;
         flex: 3;
     }
     #navbar {
-        background-color:#56B39D  ;
+        background: linear-gradient(40deg, #2e2e2e, #444444);
         flex: 1;
         
     }
     #article {
-        background-color:#ADFFEC ;
+        background: linear-gradient(40deg, #7b2cc5, #8d68be);
     
     }
     #aside {
-        background-color:#93FFE5 ;
+        background: linear-gradient(40deg, #7b2cc5, #8d68be);
         
     }
     #header {
-        background-color: #B35F44;
+        background: linear-gradient(40deg, #390966, #4c277e);
+        
     }
     #footer {
-        background-color:#FFAF94 ;
+        background: linear-gradient(40deg, #000000, #363636);
     }
     #header-menu {
         display: none;
